@@ -1,0 +1,52 @@
+# Directories to ignore
+# Generado por Google Gemini
+node_modules/
+bower_components/
+dist/
+build/
+tmp/
+cache/
+logs/
+
+# Files to ignore
+*.mp3
+*.mp4
+*.log
+*.tmp
+*.sass-cache
+*.DS_Store
+*.DS_Store*
+Thumbs.db
+desktop.ini
+
+# IDE and text editor files
+*.idea/
+.vscode/
+.editorconfig
+.gitattributes
+
+# Configuration files
+.env
+.env.production
+.env.test
+
+# OS-specific files
+*~
+*.swp
+*.cr2
+
+# Ignore build output
+*.bundle
+*.min.css
+*.min.js
+
+# Ignore test coverage files
+coverage/*
+
+# Ignore image optimization files
+optimized/*
+
+# Ignore generated files
+*.pot
+*.po
+*.mo
