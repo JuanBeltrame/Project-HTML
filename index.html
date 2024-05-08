@@ -7,6 +7,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>Glottis, el gato</title>
+  <    <style>
+    body {
+        font-family: "Lucida Console", "Courier New", monospace;
+        background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+
+    .active {
+        background-color: #92a4ff;
+    }
+
+    h1 {
+        background-color: black;
+        padding: 10px;
+        margin: 0;
+        color: #92a4ff;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .image {
+        float: right;
+        margin: 0 0 20px 20px;
+        max-width: 25%;
+        height: auto;
+    }
+
+    .image2 {
+        float: left;
+        margin: 0 20px 20px 0;
+        max-width: 25%;
+        height: auto;
+    }
+    .article {
+        float: left;
+        width: 70%;
+        background-color: #FFF;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #CCC;
+    }
+
+    .footer {
+        background-color: #333;
+        color: #FFF;
+        padding: 10px;
+        text-align: center;
+        clear: both;
+    }
+</style>
 </head>
 
 <body>
@@ -14,7 +109,7 @@
     <h1>Glottis, el Gato</h1>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
         <li><a href="preferencias.html">Preferencias</a></li>
         <li><a href="audiovisuales.html">Audiovisuales</a></li>
         <li><a href="contacto.html">Contacto</a></li>
@@ -22,13 +117,64 @@
     </nav>
   </header>
 
-  <h2>
-    Glottis, el proximo presidente de la Argentina
-  </h2>
+  <h2 style="margin: 15px;">Glottis, el primer presidente de Argentina</h2>
   <hr>
-  <article>
-    <h2>La vidad de Glottis</h2>
-  </article>
+  <Article class="container">
+    <h3>La vida de Glottis</h3>
+    <img class="image" src="/assets/img/Gatito_Foto_01.jpg" alt="Foto De Gatito 01">
+    <p>Glottis, un felino de distinguido porte y ambiciosas aspiraciones, nació en la hermosa ciudad de Rosario,
+      Argentina, en enero de 2009. Desde temprana edad, mostró una personalidad singular, llena de determinación y
+      curiosidad. Su dueño, Juan Beltrame, un amante del tango y con un sentido del humor tan afilado como el filo de un
+      cuchillo, siempre decía que Glottis tenía una mirada que podía penetrar el alma de cualquiera.
+    </p>
+    <img class= "image2" src="/assets/img/Gatito_Foto_02.jpg" alt="Foto De Gatito 02">
+    <p>Desde pequeño, Glottis demostró un aprecio peculiar por el dinero. No es que lo necesitara para comprar lujos
+      extravagantes, pero siempre encontraba placer en observar cómo las monedas brillaban bajo la luz del sol. Su
+      fascinación por la economía y las finanzas se volvió evidente a medida que crecía, y muchos se sorprendían al
+      verlo jugar con billetes falsos de juguete como si estuviera contando su futuro patrimonio.
+    </p>
+    <img class="image" src="/assets/img/Gatito_Foto_03.jpg" alt="Foto De Gatito 03">
+    <p>
+      Pero Glottis no solo tenía ojos para el dinero, sino también para los asuntos de Estado. Mientras su dueño bailaba
+      tangos en el salón, Glottis se sentaba en silencio, observando atentamente las noticias políticas en la
+      televisión. Pronto desarrolló una pasión por la política, soñando con un día liderar su país hacia un futuro
+      próspero y justo.
+    </p>
+    <p>
+      A medida que Glottis maduraba, su ambición política se hizo más evidente. A menudo, se lo encontraba en
+      discusiones acaloradas con otros gatos del vecindario sobre políticas públicas y estrategias de gobierno. Sus
+      discursos improvisados desde el balcón de su hogar atraían a una audiencia de pájaros y ratones, quienes lo
+      escuchaban con atención mientras planeaban sus próximas travesuras.
+    </p>
+    <p>
+      Con el tiempo, Glottis decidió que su destino estaba en la capital del país, Buenos Aires, donde podría hacer
+      realidad sus sueños políticos. Convenció a Juan Beltrame de emprender el viaje juntos, y así, en un día soleado de
+      primavera, Glottis y su fiel compañero se embarcaron en una nueva aventura hacia la gran ciudad.
+    </p>
+    <p>
+      En Buenos Aires, Glottis no perdió el tiempo para sumergirse en el mundo de la política. Se unió a grupos de
+      activismo felino, participó en debates callejeros y, con astucia y determinación, comenzó a tejer una red de
+      contactos en los pasillos del poder. Su carisma y su inteligencia lo llevaron rápidamente a ganarse el respeto de
+      muchos, tanto de gatos como de humanos.
+    </p>
+    <p>
+      Con el tiempo, Glottis se convirtió en una figura destacada en la escena política de Buenos Aires. Su campaña para
+      la presidencia de Argentina comenzó a tomar forma, con lemas como "Un futuro con garras" y "Un país para todos los
+      animales". Su plataforma política incluía propuestas innovadoras para mejorar la calidad de vida de todos los
+      ciudadanos, tanto de dos como de cuatro patas.
+    </p>
+    <p>
+      Aunque la idea de un gato presidente podía sonar descabellada para algunos, para Glottis era simplemente una
+      cuestión de tiempo. Con su determinación inquebrantable y su visión audaz, Glottis demostró que incluso los sueños
+      más extravagantes pueden convertirse en realidad cuando se persiguen con pasión y convicción. Y así, mientras el
+      tango seguía sonando en las calles de Buenos Aires, Glottis continuaba su marcha hacia la historia, con la
+      esperanza de dejar una huella indeleble en el destino de su amada Argentina.
+    </p>
+  </Article>
+
+  <footer class="footer">
+    <P>Derechos Reservados, &copy; 2024</P>
+  </footer>
 </body>
 
 </html>
